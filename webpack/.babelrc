@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "es2017",
+    "react",
+    "stage-2"
+  ],
+
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-object-rest-spread",
+    "transform-class-properties",
+  ]
+}
