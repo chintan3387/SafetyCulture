@@ -1,4 +1,4 @@
-# HelloFresh Project
+# SafetyCulture Project
 
 Project based on React framework, Webpack for the tooling and Express to mock the back-end.
 
