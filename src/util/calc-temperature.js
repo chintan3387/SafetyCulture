@@ -88,6 +88,5 @@ export function calculateTemparature(data) {
     tempObj.mode = calculateMode(tempData[key]);
     tempJSON.push(tempObj);
   });
-  console.log(`tempData is: ${tempJSON}`);
   return sortByAvg(tempJSON);
 }
