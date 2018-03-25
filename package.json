@@ -11,7 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./webpack/devServer.js",
     "build": "node ./node_modules/webpack/bin/webpack.js --config ./webpack/webpack.config.js --progress",
-    "server": "node ./webpack/dataServer.js"
+    "server": "node ./webpack/dataServer.js",
+    "lint": "node ./node_modules/eslint/bin/eslint.js ./src -c ./webpack/.eslintrc"
   },
   "author": "Chintan Desai (chintank.desai33@gmail.com)",
   "license": "ISC",
@@ -47,6 +48,7 @@
     "react-hot-loader": "^4.0.0",
     "style-loader": "^0.20.3",
     "url-loader": "^1.0.1",
+    "webpack-cli": "^2.0.13",
     "webpack-dev-middleware": "^3.0.1",
     "webpack-dev-server": "^3.1.1",
     "webpack-hot-middleware": "^2.21.2"

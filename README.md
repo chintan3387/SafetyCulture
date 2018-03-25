@@ -67,11 +67,6 @@ Run the ESLint
 npm run lint
 ```
 
-Run tests
-
-```
-npm run test
-```
 
 ## For any further queries/questions.
 ```
